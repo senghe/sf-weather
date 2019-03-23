@@ -17,3 +17,17 @@ services:
     App\Infrastructure\RequestResolver\RequestValueResolver:
         tags:
             - { name: controller.argument_value_resolver, priority: 50 }
+
+    # Queries
+    App\Application\Query\CheckWeatherQueryInterface: '@App\Infrastructure\Doctrine\Query\CheckWeatherQuery'
+    App\Infrastructure\Doctrine\Query\CheckWeatherQuery:
+
+    App\Application\Query\SearchHistoryQueryInterface: '@App\Infrastructure\Doctrine\Query\SearchHistoryQuery'
+    App\Infrastructure\Doctrine\Query\SearchHistoryQuery:
+
+    App\Application\Query\ShowStatisticsQueryInterface: '@App\Infrastructure\Doctrine\Query\ShowStatisticsQuery'
+    App\Infrastructure\Doctrine\Query\ShowStatisticsQuery:
+
+    # Service
+    App\Infrastructure\OpenWeatherMap\Service\SearchService:
+        arguments: ['%env(OPEN_WEATHER_MAP_URL)%', '%env(OPEN_WEATHER_MAP_API_KEY)%']

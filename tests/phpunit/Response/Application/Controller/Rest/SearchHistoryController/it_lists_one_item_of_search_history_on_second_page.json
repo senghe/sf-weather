@@ -14,7 +14,9 @@
       "weatherDetails": {
         "current": 15.43,
         "min": 10.12,
-        "max": 23.57
+        "max": 23.57,
+        "pressure": 998,
+        "humidity": 30
       },
       "windDetails": {
         "speed": 50.99,

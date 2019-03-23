@@ -4,15 +4,14 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\Doctrine\Query;
 
+use App\Application\Query\ShowStatisticsQueryInterface;
 use App\Domain\Entity\CityStatistics;
 use App\Domain\Entity\SearchHistory;
-use App\Infrastructure\Doctrine\Query\Model\ShowStatisticsQueryModel;
-use App\Infrastructure\QueryInterface;
+use App\Infrastructure\Doctrine\Query\Model\ShowStatisticsModel;
 use App\Infrastructure\QueryModelInterface;
-use App\Infrastructure\RequestResolver\RequestInterface;
 use Doctrine\ORM\EntityManagerInterface;
 
-class ShowStatisticsQuery implements QueryInterface
+class ShowStatisticsQuery implements ShowStatisticsQueryInterface
 {
     /**
      * @var EntityManagerInterface
@@ -24,11 +23,13 @@ class ShowStatisticsQuery implements QueryInterface
         $this->entityManager = $entityManager;
     }
 
-    public function execute(RequestInterface $request): QueryModelInterface
+    public function getStatistics(): QueryModelInterface
     {
-        $model = new ShowStatisticsQueryModel(
+        $tempStatistics = $this->fetchStatistics();
+        $model = new ShowStatisticsModel(
             $this->findMostPopularCity(),
-            ...$this->fetchStatistics()
+            (float)$tempStatistics['temperatureMin'],
+            (float)$tempStatistics['temperatureMax']
         );
 
         return $model;
@@ -52,9 +53,9 @@ class ShowStatisticsQuery implements QueryInterface
         $queryBuilder = $this->entityManager
             ->createQueryBuilder();
 
-        return $queryBuilder->select('MAX(s.weatherDetails.temperatureMax) as temperatureMax, MIN(s.weatherDetails.temperatureMin) as temperatureMin')
+        return $queryBuilder->select('MIN(s.weatherDetails.temperatureMin) as temperatureMin, MAX(s.weatherDetails.temperatureMax) as temperatureMax')
             ->from(SearchHistory::class, 's')
             ->getQuery()
-            ->getArrayResult();
+            ->getSingleResult();
     }
 }

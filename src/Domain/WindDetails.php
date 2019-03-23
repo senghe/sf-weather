@@ -24,7 +24,7 @@ class WindDetails implements ArrayTransformableInterface
     public function __construct(
         float $speed,
         int $directionDegree,
-        float $gust
+        float $gust = 0.0
     ) {
         $this->speed = $speed;
         $this->directionDegree = $directionDegree;

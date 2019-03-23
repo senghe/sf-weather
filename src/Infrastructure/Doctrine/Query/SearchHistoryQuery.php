@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\Doctrine\Query;
 
+use App\Application\Query\SearchHistoryQueryInterface;
 use App\Domain\Entity\SearchHistory;
 use App\Infrastructure\Doctrine\Query\Model\ListSearchHistoryModel;
 use App\Infrastructure\Doctrine\Query\Model\SearchHistoryModel;
-use App\Infrastructure\QueryInterface;
 use App\Infrastructure\QueryModelInterface;
 use App\Infrastructure\Uuid;
 use Doctrine\ORM\EntityManagerInterface;
 
-class SearchHistoryQuery implements QueryInterface
+class SearchHistoryQuery implements SearchHistoryQueryInterface
 {
     const ITEMS_PER_PAGE = 10;
 

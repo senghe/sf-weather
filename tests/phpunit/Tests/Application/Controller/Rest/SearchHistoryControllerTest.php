@@ -114,4 +114,19 @@ final class SearchHistoryControllerTest extends AbstractWebTestCase
             'Response/Application/Controller/Rest/SearchHistoryController/it_lists_search_history_on_first_page.json'
         );
     }
+
+    /**
+     * @test
+     */
+    public function it_shows_search_statistics(): void
+    {
+        $this->client->request('GET', '/history/statistics');
+        $response = $this->client->getResponse();
+
+        $this->assertResponse(
+            $response,
+            Response::HTTP_OK,
+            'Response/Application/Controller/Rest/SearchHistoryController/it_shows_search_statistics.json'
+        );
+    }
 }

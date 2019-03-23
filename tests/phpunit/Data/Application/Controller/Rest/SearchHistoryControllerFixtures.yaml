@@ -1,4 +1,11 @@
 stats:
+  - id: "8F0FEF2B-022F-4B9D-AE5C-40AA3A881F20"
+    city: "Tarnów"
+    use_count: 12
+
+  - id: "8F0FEF2B-022F-4B9D-AE5C-40AA3A881F21"
+    city: "Kraków"
+    use_count: 5
 
 history:
   - id: "584B0539-5CEB-42BE-890B-7EFD960EEA01"

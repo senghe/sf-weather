@@ -16,7 +16,7 @@ class CommandBus
         $this->bus = $bus;
     }
 
-    public function dispatch(CommandInterface $command)
+    public function dispatch(CommandInterface $command): void
     {
         $this->bus->dispatch($command);
     }

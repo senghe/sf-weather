@@ -11,5 +11,5 @@ class ListSearchHistoryRequest implements RequestInterface
     /**
      * @var int
      */
-    public $page;
+    public $page = 1;
 }

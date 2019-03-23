@@ -76,6 +76,8 @@ class WeatherDetails implements ArrayTransformableInterface
             'current' => $this->temperature,
             'min' => $this->temperatureMin,
             'max' => $this->temperatureMax,
+            'pressure' => $this->pressure,
+            'humidity' => $this->humidity,
         ];
     }
 }
