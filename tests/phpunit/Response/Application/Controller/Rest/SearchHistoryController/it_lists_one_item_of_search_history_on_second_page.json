@@ -1,0 +1,29 @@
+{
+  "total": 11,
+  "items": [
+    {
+      "city": "Tarnów01",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    }
+  ]
+}

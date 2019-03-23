@@ -51,6 +51,7 @@ class SearchHistoryQuery implements QueryInterface
             ->from(SearchHistory::class, 'h')
             ->setFirstResult($offset)
             ->setMaxResults($itemsPerPage)
+            ->orderBy('h.createdAt', 'DESC')
             ->getQuery()
             ->getResult();
 

@@ -20,6 +20,6 @@ class SearchService implements SearchServiceInterface
 
     public function search(): void
     {
-        // ?lat=50.01381&lon=20.98698&APPID=739f64dff99e662803ec9a6f6445af8d
+        
     }
 }

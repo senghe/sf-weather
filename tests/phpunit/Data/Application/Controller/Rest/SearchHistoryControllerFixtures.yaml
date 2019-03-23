@@ -1,9 +1,179 @@
 stats:
 
 history:
-  - id: "584B0539-5CEB-42BE-890B-7EFD960EEAF5"
-    city: "Tarnów"
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA01"
+    city: "Tarnów01"
     created_at: "2019-01-01 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA02"
+    city: "Tarnów02"
+    created_at: "2019-01-02 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA03"
+    city: "Tarnów03"
+    created_at: "2019-01-03 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA04"
+    city: "Tarnów04"
+    created_at: "2019-01-04 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA05"
+    city: "Tarnów05"
+    created_at: "2019-01-05 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA06"
+    city: "Tarnów06"
+    created_at: "2019-01-06 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA07"
+    city: "Tarnów07"
+    created_at: "2019-01-07 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA08"
+    city: "Tarnów08"
+    created_at: "2019-01-08 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA09"
+    city: "Tarnów09"
+    created_at: "2019-01-09 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA10"
+    city: "Tarnów10"
+    created_at: "2019-01-010 00:00:00"
+    coordinates_longitude: 20.98698
+    coordinates_latitude: 50.01381
+    weather_description_short: "Cloudy"
+    weather_description_long: "It's really cloudy"
+    weather_details_temperature: 15.43
+    weather_details_temperature_min: 10.12
+    weather_details_temperature_max: 23.57
+    weather_details_pressure: 998
+    weather_details_humidity: 30
+    wind_details_speed: 50.99
+    wind_details_direction_degree: 30
+    wind_details_gust: 30.20
+    cloud_details_percentage: 40
+
+  - id: "584B0539-5CEB-42BE-890B-7EFD960EEA11"
+    city: "Tarnów11"
+    created_at: "2019-01-011 00:00:00"
     coordinates_longitude: 20.98698
     coordinates_latitude: 50.01381
     weather_description_short: "Cloudy"

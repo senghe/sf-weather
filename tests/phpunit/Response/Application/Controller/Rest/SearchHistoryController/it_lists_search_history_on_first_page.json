@@ -1,8 +1,224 @@
 {
-  "total": 1,
+  "total": 11,
   "items": [
     {
-      "city": "Tarnów",
+      "city": "Tarnów11",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów10",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów09",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów08",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów07",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów06",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów05",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów04",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów03",
+      "coordinates": {
+        "longitude": 20.98698,
+        "latitude": 50.01381
+      },
+      "weatherDescription": {
+        "short": "Cloudy",
+        "long": "It's really cloudy"
+      },
+      "weatherDetails": {
+        "current": 15.43,
+        "min": 10.12,
+        "max": 23.57
+      },
+      "windDetails": {
+        "speed": 50.99,
+        "direction": 30,
+        "gust": 30.2
+      },
+      "cloudDetails": {
+        "percentage": 40
+      }
+    },
+    {
+      "city": "Tarnów02",
       "coordinates": {
         "longitude": 20.98698,
         "latitude": 50.01381

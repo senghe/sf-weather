@@ -64,7 +64,7 @@ final class SearchHistoryControllerTest extends AbstractWebTestCase
     /**
      * @test
      */
-    public function it_lists_no_search_history_on_second_page(): void
+    public function it_lists_one_item_of_search_history_on_second_page(): void
     {
         $data = [
             'page' => 2,
@@ -75,7 +75,25 @@ final class SearchHistoryControllerTest extends AbstractWebTestCase
         $this->assertResponse(
             $response,
             Response::HTTP_OK,
-            'Response/Application/Controller/Rest/SearchHistoryController/it_lists_no_search_history_on_second_page.json'
+            'Response/Application/Controller/Rest/SearchHistoryController/it_lists_one_item_of_search_history_on_second_page.json'
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function it_lists_no_search_history_on_third_page(): void
+    {
+        $data = [
+            'page' => 3,
+        ];
+        $this->client->request('GET', '/history', $data);
+        $response = $this->client->getResponse();
+
+        $this->assertResponse(
+            $response,
+            Response::HTTP_OK,
+            'Response/Application/Controller/Rest/SearchHistoryController/it_lists_no_search_history_on_third_page.json'
         );
     }
 
