@@ -1,0 +1,24 @@
+{
+  "city": "Warszawa",
+  "coordinates": {
+    "longitude": 21.017532,
+    "latitude": 52.237049
+  },
+  "weatherDescription": {
+    "short": "Sunny",
+    "long": "It's a beautifully day"
+  },
+  "weatherDetails": {
+    "current": 10.52,
+    "min": 9.71,
+    "max": 13.51
+  },
+  "windDetails": {
+    "speed": 21.32,
+    "direction": 42,
+    "gust": 12
+  },
+  "cloudDetails": {
+    "percentage": 52
+  }
+}

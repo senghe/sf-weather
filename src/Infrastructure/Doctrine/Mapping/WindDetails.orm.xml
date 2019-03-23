@@ -1,0 +1,7 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <embeddable name="App\Domain\WindDetails">
+        <field name="speed" type="float"/>
+        <field name="directionDegree" type="integer"/>
+        <field name="gust" type="float"/>
+    </embeddable>
+</doctrine-mapping>

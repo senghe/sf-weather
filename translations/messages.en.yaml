@@ -1,0 +1,11 @@
+message_subject: New message received
+message_content: You have received new message. Click to open it.
+
+system_expire-in-7-days_subject: Your account will expire soon
+system_expire-in-7-days_content: Your account will expire in 7 days. Click here to read more.
+
+system_expire-in-3-days_subject: Your account will expire soon
+system_expire-in-3-days_content: Your account will expire in 3 days. Click here to read more.
+
+system_expired_subject: Your account has expired
+system_expired_content: Your account has expired. Click here to read more.

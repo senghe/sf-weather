@@ -1,0 +1,48 @@
+fixtures:
+    users:
+        - redactor:
+            id:       "DF654611-94CF-4A0E-96F4-1849FFFB23E4"
+            username: "redactor"
+            password: "password"
+
+        - user:
+            id:       "9347DE35-8A46-4781-A855-532DC88A2F8C"
+            username: "user"
+            password: "password"
+
+    notifications:
+        - Message1:
+            id:           "119EB463-A5EF-4B4D-A69A-E6BEEFCD1C61"
+            type:         "message"
+            messageId:    "7A62BBDF-42D6-4E3A-8CA6-2CC48F7AB13A"
+            subject:      "Hej, czy wszystko gra?"
+            content:      "Hej, zauważyłem, że Twój okres abonamentowy skończy się w przyszłym tygodniu. Czy jest coś, w czym mogę Ci pomóc?"
+            sender:       "redactor"
+            receiver:     "user"
+
+        - System1:
+            id:           "72B99891-1846-446A-B537-58C406D48C55"
+            type:         "system"
+            systemType:   "expire-in-3-days"
+            subject:      "Twój abonament wygaśnie za trzy dni"
+            content:      "Twój abonament wygaśnie za trzy dni. Aby go przedłużyć, skontaktuj się z naszym działem Customer Success."
+            sender:       null
+            receiver:     "user"
+
+        - System2:
+            id:           "3AA249FD-87AE-4CEB-8067-F6C0EB4CED3B"
+            type:         "system"
+            systemType:   "expired"
+            subject:      "Twój abonament wygasł"
+            content:      "Twój abonament właśnie wygasł. Aby go przedłużyć, skontaktuj się z naszym działem Customer Success."
+            sender:       null
+            receiver:     "user"
+
+        - Message2:
+            id:           "57E68B41-5337-47E6-B54F-0B2AE4117E05"
+            type:         "message"
+            messageId:    "226AB4DF-F20C-4CB1-89B9-1C8F05E3E46D"
+            subject:      "Czy jeszcze jesteś z nami?"
+            content:      "Hej, w razie gdybyś potrzebował pomocy - odezwij się do mnie :)"
+            sender:       "redactor"
+            receiver:     "user"

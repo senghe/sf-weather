@@ -1,0 +1,13 @@
+message_subject: Masz nową wiadomość
+message_content: Masz nową wiadomość w swojej skrzynce. Kliknij, aby ją otworzyć.
+
+system_expire-in-7-days_subject: Twoje konto wygaśnie niebawem
+system_expire-in-7-days_content: Twoje konto wygaśnie za tydzień. Kliknij tutaj, aby dowiedzieć się więcej.
+
+system_expire-in-3-days_subject: Twoje konto wygaśnie niebawem
+system_expire-in-3-days_content: Twoje konto wygaśnie za 3 dni. Kliknij tutaj, aby dowiedzieć się więcej.
+
+system_expired_subject: Twoje konto wygasło
+system_expired_content: Twoje konto wygasło. Kliknij tutaj, aby dowiedzieć się więcej.
+
+

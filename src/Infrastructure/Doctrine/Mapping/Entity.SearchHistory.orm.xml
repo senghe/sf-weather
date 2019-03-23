@@ -1,0 +1,15 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Domain\Entity\SearchHistory" table="history">
+        <id name="id" length="36"/>
+
+        <field name="city"/>
+
+        <embedded name="coordinates" class="App\Domain\Coordinates" />
+        <embedded name="weatherDescription" class="App\Domain\WeatherDescription" />
+        <embedded name="weatherDetails" class="App\Domain\WeatherDetails" />
+        <embedded name="windDetails" class="App\Domain\WindDetails" />
+        <embedded name="cloudDetails" class="App\Domain\CloudDetails" />
+
+        <field name="createdAt" type="datetime"/>
+    </entity>
+</doctrine-mapping>

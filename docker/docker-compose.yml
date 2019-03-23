@@ -1,0 +1,29 @@
+version: '3.3'
+services:
+    lamp:
+        container_name: weather_lamp
+        build:
+            context: .
+            dockerfile: images/weather/Dockerfile
+        ports:
+            - 80:80
+        volumes:
+            - ../:/var/www/weather
+        links:
+            - mariadb
+
+    mariadb:
+        container_name: weather_mariadb
+        image: mariadb:10.1.10
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+        ports:
+            - 13306:3306
+
+    mariadb_test:
+        container_name: weather_mariadb_test
+        image: mariadb:10.1.10
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+        ports:
+            - 13307:3306

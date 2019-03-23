@@ -1,0 +1,4 @@
+swiftmailer:
+    transport: gmail
+    username:  senghe
+    password:  "%env(MAILER_PASSWORD)%"

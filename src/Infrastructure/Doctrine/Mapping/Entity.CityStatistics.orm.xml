@@ -1,0 +1,8 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Domain\Entity\CityStatistics" table="stats">
+        <id name="id" length="36"/>
+
+        <field name="city"/>
+        <field name="useCount" type="integer"/>
+    </entity>
+</doctrine-mapping>

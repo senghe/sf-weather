@@ -1,0 +1,24 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/7.5/phpunit.xsd"
+         colors="true"
+         bootstrap="tests/phpunit/bootstrap.php"
+         stopOnFailure="true">
+    <testsuites>
+        <testsuite name="Event Test Suite">
+            <directory>tests/phpunit</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="weak" />
+        <env name="APP_DEBUG" value="0" force="true"/>
+        <env name="ROOT_DIR" value="./tests/phpunit/" force="true"/>
+        <env name="DATABASE_URL" value="mysql://root:password@mariadb_test:3306/weather" force="true"/>
+        <env name="APP_HOST" value="weather.local"/>
+        <server name="KERNEL_CLASS" value="App\Kernel" force="true"/>
+    </php>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
