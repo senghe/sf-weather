@@ -16,7 +16,7 @@ class FrontController extends AbstractController
     public function search()
     {
         return new Response(
-            $this->renderView('search')
+            $this->renderView('index.html.twig')
         );
     }
 }
