@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="theme-color" content="#000000" />
-        <title>React App</title>
+        <meta charset="UTF-8">
+        <title>{% block title %}WeatherMap{% endblock %}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     </head>
     <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
-        <script type="text/babel" src="{{ asset('build/WeatherApp.js') }}"></script>
+
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('build/runtime.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('build/vendors~WeatherMap.js') }}"></script>
+            <script type="text/javascript" src="{{ asset('build/WeatherMap.js') }}"></script>
+        {% endblock %}
     </body>
 </html>
