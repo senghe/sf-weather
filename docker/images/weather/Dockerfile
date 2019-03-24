@@ -29,6 +29,12 @@ RUN DEBIAN_FRONTEND=noninteractive \
     apt-get -y --force-yes install python-software-properties && \
     add-apt-repository -y ppa:ondrej/php
 
+RUN apt-get install -y curl
+
+RUN curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -- && apt-get install -y nodejs \
+    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - \
+    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list \
+    sudo apt-get update && sudo apt-get install -y yarn
 
 # Apache, PHP and other dependencies
 RUN DEBIAN_FRONTEND=noninteractive \
@@ -63,7 +69,8 @@ RUN DEBIAN_FRONTEND=noninteractive \
     supervisor \
     iproute2 \
     git \
-    build-essential
+    build-essential \
+    inetutils-ping
 
 RUN DEBIAN_FRONTEND=noninteractive \
     apt-get -y --force-yes update && \
