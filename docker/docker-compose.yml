@@ -9,7 +9,6 @@ services:
             - 80:80
         volumes:
             - ../:/var/www/weather
-        dns: 127.0.0.1
         links:
             - mariadb
 

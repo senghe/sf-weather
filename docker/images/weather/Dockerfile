@@ -31,9 +31,10 @@ RUN DEBIAN_FRONTEND=noninteractive \
 
 RUN apt-get install -y curl
 
-RUN curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -- && apt-get install -y nodejs \
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list \
+RUN curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -- && apt-get install -y nodejs
+
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && \
+    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && \
     sudo apt-get update && sudo apt-get install -y yarn
 
 # Apache, PHP and other dependencies
